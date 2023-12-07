@@ -1,0 +1,91 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+/* Reseteljük az alapstílust a linkeknél */
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+h3{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+  
+/* Alapstílus a linkekre */
+.nav-link {
+    color: white;
+    transition: color 0.3s, border-bottom 0.3s; /* Áttűnési effekt hoverkor */
+  }
+  
+  /* Hover hatás a linkeknél */
+  .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid white; /* Aláhúzás hoverkor */
+  }
+  
+  /* Alapstílus a linkekhez */
+  .nav-link,
+  .nav-link:visited {
+    color: white; /* Alapértelmezett szín */
+  }
+  
+  /* Hover hatás a linkeknél */
+  .nav-link:hover {
+    color: white;
+    border-bottom: 2px solid white; /* Aláhúzás hoverkor */
+  }
+  
+  /* Profilkép stílusa */
+  .profile-img {
+    width: 100px; /* Állítsd be a megfelelő méretre */
+    height: 100px; /* Állítsd be a megfelelő méretre */
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .portTitle{
+    margin-top:5%;
+    margin-bottom:3%;
+  }
+.content{
+    padding-right:25%;
+    font-size: 16px;
+}
+p{
+    margin-bottom:3%;
+    margin-top:3%;
+}
+.outro{
+    margin-top:30%;
+    font-style: italic;
+}
+li{
+    list-style:none;
+}
+.outro1{
+    margin-top:5%;
+    font-style: italic;
+}
+h2{
+    margin-top:5%;
+    margin-bottom:2%;
+    color:white;
+    text-align: left;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animáció hozzáadása a content-hez */
+.animated {
+  animation: fadeInUp 0.5s ease-in-out; /* Itt állíthatod az animáció időtartamát és a lelassulás sebességét */
+}
+.contact{
+  margin-top:100%;
+}
